@@ -1,0 +1,20 @@
+{
+  "name": "financial-planning",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n frontend,backend \"npm run dev --workspace @financial-planning/frontend\" \"npm run dev --workspace @financial-planning/backend\"",
+    "dev:frontend": "npm run dev --workspace @financial-planning/frontend",
+    "dev:backend": "npm run dev --workspace @financial-planning/backend",
+    "build": "npm run build --workspaces",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "clean": "npm run clean --workspaces --if-present"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "overview": {
+    "netWorth": 428500,
+    "monthlyIncome": 12800,
+    "monthlyExpenses": 6810,
+    "savingsRate": 47,
+    "investedAssets": 261400,
+    "cashReserves": 42100,
+    "totalDebt": 125000,
+    "creditScore": 782
+  },
+  "goals": [
+    {
+      "id": "goal-home",
+      "name": "House Down Payment",
+      "targetAmount": 120000,
+      "currentAmount": 76500,
+      "targetYear": 2028,
+      "category": "Property",
+      "monthlyContribution": 1800,
+      "icon": "home"
+    },
+    {
+      "id": "goal-retirement",
+      "name": "Retirement Fund",
+      "targetAmount": 1800000,
+      "currentAmount": 634000,
+      "targetYear": 2045,
+      "category": "Retirement",
+      "monthlyContribution": 3200,
+      "icon": "retirement"
+    },
+    {
+      "id": "goal-education",
+      "name": "Children Education",
+      "targetAmount": 200000,
+      "currentAmount": 88000,
+      "targetYear": 2036,
+      "category": "Family",
+      "monthlyContribution": 650,
+      "icon": "education"
+    },
+    {
+      "id": "goal-emergency",
+      "name": "Emergency Fund",
+      "targetAmount": 50000,
+      "currentAmount": 42100,
+      "targetYear": 2027,
+      "category": "Safety",
+      "monthlyContribution": 500,
+      "icon": "shield"
+    }
+  ],
+  "budgets": [
+    { "id": "b1", "label": "Housing & Utilities", "planned": 2850, "spent": 2780, "color": "#06d6a0" },
+    { "id": "b2", "label": "Investing", "planned": 3200, "spent": 3200, "color": "#118ab2" },
+    { "id": "b3", "label": "Groceries & Dining", "planned": 1100, "spent": 925, "color": "#ffd166" },
+    { "id": "b4", "label": "Transportation", "planned": 650, "spent": 580, "color": "#ef476f" },
+    { "id": "b5", "label": "Entertainment", "planned": 400, "spent": 325, "color": "#8338ec" },
+    { "id": "b6", "label": "Travel Reserve", "planned": 700, "spent": 450, "color": "#073b4c" }
+  ],
+  "transactions": [
+    { "id": "t1", "date": "2026-06-27", "description": "Monthly Salary", "category": "Income", "type": "income", "amount": 12800 },
+    { "id": "t2", "date": "2026-06-26", "description": "Mortgage Payment", "category": "Housing & Utilities", "type": "expense", "amount": 2200 },
+    { "id": "t3", "date": "2026-06-25", "description": "Vanguard ETF Purchase", "category": "Investing", "type": "expense", "amount": 3200 },
+    { "id": "t4", "date": "2026-06-24", "description": "Whole Foods", "category": "Groceries & Dining", "type": "expense", "amount": 285 },
+    { "id": "t5", "date": "2026-06-23", "description": "Electric Bill", "category": "Housing & Utilities", "type": "expense", "amount": 180 },
+    { "id": "t6", "date": "2026-06-22", "description": "Gas Station", "category": "Transportation", "type": "expense", "amount": 65 },
+    { "id": "t7", "date": "2026-06-21", "description": "Netflix & Spotify", "category": "Entertainment", "type": "expense", "amount": 28 },
+    { "id": "t8", "date": "2026-06-20", "description": "Restaurant - Anniversary", "category": "Groceries & Dining", "type": "expense", "amount": 175 },
+    { "id": "t9", "date": "2026-06-19", "description": "Uber Ride", "category": "Transportation", "type": "expense", "amount": 32 },
+    { "id": "t10", "date": "2026-06-18", "description": "Freelance Project", "category": "Income", "type": "income", "amount": 2500 }
+  ],
+  "portfolio": {
+    "holdings": {
+      "stocks": 156800,
+      "bonds": 52300,
+      "realEstate": 31400,
+      "crypto": 12900,
+      "cash": 42100,
+      "commodities": 8000
+    },
+    "targetAllocation": {
+      "stocks": 50,
+      "bonds": 20,
+      "realEstate": 12,
+      "crypto": 5,
+      "cash": 8,
+      "commodities": 5
+    }
+  }
+}

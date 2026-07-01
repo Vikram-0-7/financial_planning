@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Frontend build output
+dist/
+**/dist/
+
+# Python cache and virtual environments
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# TypeScript build metadata
+*.tsbuildinfo
+
+# Test and coverage output
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+!.vscode/extensions.json
+
+# Python packaging / runtime artifacts
+.mypy_cache/
+.ruff_cache/
